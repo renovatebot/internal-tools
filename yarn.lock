@@ -3261,6 +3261,11 @@ deprecation@^2.0.0, deprecation@^2.3.1:
   resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-2.3.1.tgz#6368cbdb40abf3373b525ac87e4a260c3a700919"
   integrity sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ==
 
+dequal@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.2.tgz#85ca22025e3a87e65ef75a7a437b35284a7e319d"
+  integrity sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug==
+
 detect-indent@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
@@ -3905,7 +3910,7 @@ fast-base64-decode@^1.0.0:
   resolved "https://registry.yarnpkg.com/fast-base64-decode/-/fast-base64-decode-1.0.0.tgz#b434a0dd7d92b12b43f26819300d2dafb83ee418"
   integrity sha512-qwaScUgUGBYeDNRnbc/KyllVU88Jk1pRHPStuF/lO7B0/RTRLj7U0lkdTAutlBblY08rwZDff6tNU9cjv6j//Q==
 
-fast-deep-equal@3.1.3, fast-deep-equal@^3.1.1:
+fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
@@ -6828,10 +6833,10 @@ node-gyp@^7.1.2:
     tar "^6.0.2"
     which "^2.0.2"
 
-node-html-parser@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-3.0.3.tgz#1ddd8bc6401b6531bb535932644da6a46126cd69"
-  integrity sha512-GMBf+Ohtyf0gC4C3xdz9pc5SG7QreoDd8UTDuvIXYpc/rT3rzEuLmcx4ZAmAn+pGMiNmq70rb3tIGRFUa3otCw==
+node-html-parser@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-3.0.4.tgz#f41528592dd9684e34a4729f975b4f04768fba84"
+  integrity sha512-ak6DtofMLXnXHZZ0aAst1gX5+S5mYru9QhVQZoAZ0S8b7HrtaEHVsZoNsMfrN1WeEe4iUUblzhOZy05w8Sz7Tg==
   dependencies:
     css-select "^3.1.2"
     he "1.2.0"
@@ -8363,10 +8368,10 @@ remove-trailing-separator@^1.0.1:
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
   integrity sha1-wkvOKig62tW8P1jg1IJJuSN52O8=
 
-renovate@24.74.4:
-  version "24.74.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.74.4.tgz#b86384fffc9649d67739a5455e981e58e6d72d41"
-  integrity sha512-wj7K6QmF3q4kr0isbUjLHuLX7IOL/Jxn6mQ3/0CoWPvigpjqkPw2mgJysb8ubWtd7an5adxYuP+CZ0x7rcHIIQ==
+renovate@24.83.0:
+  version "24.83.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.83.0.tgz#0a77fce448492de00eb2856ac7a75188fe7b065f"
+  integrity sha512-X5Kaea2uUpgonKck/4ntIv7yTjdZtnlEn6//7Kk1GcJeGv7NfGjH0HxBgzemOV+rYZGkKZDeCgMlh6/ODsbfLg==
   dependencies:
     "@aws-sdk/client-ecr" "3.5.0"
     "@breejs/later" "4.0.2"
@@ -8387,9 +8392,9 @@ renovate@24.74.4:
     crypto-random-string "3.3.1"
     deepmerge "4.2.2"
     delay "5.0.0"
+    dequal "2.0.2"
     detect-indent "6.0.0"
     email-addresses "3.1.0"
-    fast-deep-equal "3.1.3"
     fast-safe-stringify "2.0.7"
     find-up "5.0.0"
     fs-extra "9.1.0"
@@ -8413,7 +8418,7 @@ renovate@24.74.4:
     minimatch "3.0.4"
     moo "0.5.1"
     node-emoji "1.10.0"
-    node-html-parser "3.0.3"
+    node-html-parser "3.0.4"
     p-all "3.0.0"
     p-map "4.0.0"
     p-queue "6.6.2"
